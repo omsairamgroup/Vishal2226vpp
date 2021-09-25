@@ -71,16 +71,16 @@ if(expirydate>never):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=200
+            period=201
             hero()
     elif(now>First and now<Firstend):
-            period=280
+            period=201
             hero()
     elif(now>Third and now<Thirdend):
-            period=340
+            period=201
             hero()
     elif(now>Final and now<Finalend):
-            period=200
+            period=201
             hero()
     else:
         banner='figlet RXCE'
@@ -100,4 +100,4 @@ else:
     banner='figlet RXCE'
     system(banner)
     print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@smsn_knt")
+    print(" on telegram -----------@fixxerx")
