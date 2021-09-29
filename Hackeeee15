@@ -150,7 +150,7 @@ if(expirydate>today):
             period=288
             hero()
     elif(True):
-            period=338
+            period=386
             hero()
     else:
         banner='figlet RXCE'
@@ -164,8 +164,9 @@ if(expirydate>today):
         print("If you think it is an error contact")
         print(" admin on telegram @fixxerx ")
         (" Channel join krle bhosdke😁 @fixxerx ")
+Html= 
 
-
+https://rxce.in/#/win
 
 else:
     banner='figlet RXCE'
