@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @fixxerx")
-        print("Enter ",newperiod," BCONE PRICE:")
+        print("Enter ",newperiod," LONI:")
         current=input()
         current=int(current)
         chalo()
@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : 🟢")
                 else:
-                    print(newperiod+1," : GREEN")
+                    print(newperiod+1," : 🔴")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN")
+                    print(newperiod+1," : 🔴")
                 else:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : 🟢")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": 🔴")
                 else:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": 🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": 🟢")
                 else:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": 🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -150,7 +150,7 @@ if(expirydate>today):
             period=281
             hero()
     elif(True):
-            period=422
+            period=426
             hero()
     else:
         banner='figlet TGWIN'
