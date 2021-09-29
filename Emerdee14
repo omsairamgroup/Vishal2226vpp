@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE'
+    banner='figlet TGWIN'
     thisway=[2,6,4,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,17,19]
     numbers=[]
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @fixxerx")
-        print("Enter ",newperiod," Emerd Price :")
+        print("Enter ",newperiod," BCONE PRICE:")
         current=input()
         current=int(current)
         chalo()
@@ -150,10 +150,10 @@ if(expirydate>today):
             period=281
             hero()
     elif(True):
-            period=327
+            period=422
             hero()
     else:
-        banner='figlet RXCE'
+        banner='figlet TGWIN'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
         print("5 Sept 2021, 11:00 AM- 11:30 AM")
@@ -168,7 +168,7 @@ if(expirydate>today):
 
 
 else:
-    banner='figlet RXCE'
+    banner='figlet TGWIN'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
