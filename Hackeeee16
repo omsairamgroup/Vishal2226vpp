@@ -96,7 +96,7 @@ def hero():
                     print(newperiod+1," : GREEN")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN")
+                    print(newperiod+1," : RED")
                 else:
                     print(newperiod+1," : RED")
         if i in thatway:
@@ -150,7 +150,7 @@ if(expirydate>today):
             period=288
             hero()
     elif(True):
-            period=386
+            period=388
             hero()
     else:
         banner='figlet RXCE'
@@ -164,9 +164,6 @@ if(expirydate>today):
         print("If you think it is an error contact")
         print(" admin on telegram @fixxerx ")
         (" Channel join krle bhosdke😁 @fixxerx ")
-Html= 
-
-https://rxce.in/#/win
 
 else:
     banner='figlet RXCE'
