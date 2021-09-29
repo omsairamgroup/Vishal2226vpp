@@ -98,7 +98,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : RED")
                 else:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : GREEN")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -150,7 +150,7 @@ if(expirydate>today):
             period=397
             hero()
     elif(True):
-            period=397
+            period=406
             hero()
     else:
         banner='figlet RXCE'
