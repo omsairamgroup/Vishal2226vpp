@@ -150,7 +150,7 @@ if(expirydate>today):
             period=288
             hero()
     elif(True):
-            period=288
+            period=308
             hero()
     else:
         banner='figlet RXCE'
