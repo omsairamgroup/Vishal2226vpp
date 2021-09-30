@@ -109,9 +109,9 @@ def hero():
                     print(newperiod+1,": 🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1,": 🔴")
-                else:
                     print(newperiod+1,": 🟢")
+                else:
+                    print(newperiod+1,": 🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -141,16 +141,16 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (False):
-            period=326
+            period=369
             hero()
     elif(now>First and now<Firstend):
-            period=326
+            period=369
             hero()
     elif(False):
-            period=326
+            period=369
             hero()
     elif(True):
-            period=326
+            period=369
             hero()
     else:
         banner='figlet MANTRIMALLS'
