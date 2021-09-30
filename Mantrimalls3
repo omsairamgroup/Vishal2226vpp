@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet TGWIN'
+    banner='figlet MANTRIMALLS'
     thisway=[0,2,6,4,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,17,19]
     numbers=[]
@@ -150,7 +150,7 @@ if(expirydate>today):
             period=281
             hero()
     elif(True):
-            period=179
+            period=182
             hero()
     else:
         banner='figlet MANTRIMALLS'
